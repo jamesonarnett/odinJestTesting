@@ -55,8 +55,9 @@ const rot13 = (str) => {
   return result;
 };
 
+console.log(caeserChiper("word"));
 console.log(caeserChiper("JAMESON"));
 console.log(caeserChiper("jameson"));
 console.log(rot13(caeserChiper("JAMESON")));
 
-module.export = caeserChiper;
+module.exports = caeserChiper;
